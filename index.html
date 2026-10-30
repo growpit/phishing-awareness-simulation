@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Awareness Simulation</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f1f4f9;
+            margin: 0;
+            padding: 40px 15px;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 50px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 15px #0002;
+        }
+
+        .warning {
+            color: #d93025;
+            font-size: 45px;
+        }
+
+        h1 {
+            color: #202124;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        button {
+            background: #1a73e8;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #1557b0;
+        }
+
+        #lesson {
+            display: none;
+            background: #e8f0fe;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="warning">⚠️</div>
+
+    <h1>Security Alert Simulation</h1>
+
+    <p>
+        This is a cybersecurity awareness exercise.
+        Imagine receiving an unexpected account security
+        warning asking you to take immediate action.
+    </p>
+
+    <button onclick="showLesson()">
+        Reveal Phishing Warning Signs
+    </button>
+
+    <div id="lesson">
+        <h3>How to identify phishing:</h3>
+
+        <ul>
+            <li>Unexpected security alerts.</li>
+            <li>Messages creating urgency or fear.</li>
+            <li>Suspicious sender addresses.</li>
+            <li>Unknown or misleading links.</li>
+            <li>Requests for passwords or personal details.</li>
+        </ul>
+
+        <p><strong>Remember:</strong> Never enter your
+        password through an unexpected link.</p>
+
+        <h3>Simulation completed!</h3>
+    </div>
+
+</div>
+
+<script>
+    function showLesson() {
+        document.getElementById("lesson").style.display = "block";
+    }
+</script>
+
+</body>
+</html>

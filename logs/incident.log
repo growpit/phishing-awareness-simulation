@@ -1,0 +1,23 @@
+INCIDENT ID: INC-001
+DATE: 30-10-2026
+SEVERITY: Medium
+STATUS: Detected
+
+EVENT: Suspicious phishing email reported.
+SOURCE: Simulated email campaign.
+TARGET: Training environment.
+INDICATORS:
+- Unexpected account security alert.
+- Urgent action requested.
+- Suspicious link present.
+- Request for account credentials.
+
+DETECTION:
+The security awareness simulation identified
+phishing indicators.
+
+IMPACT:
+No real users or credentials were affected.
+
+ACTION:
+Incident reported for investigation.
